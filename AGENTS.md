@@ -48,6 +48,16 @@ Add a new provider when at least one of these is true:
 
 Avoid adding a provider if the target spec is unstable or undocumented.
 
+## Agent References in Skills
+
+When referencing agents from within skill SKILL.md files (e.g., via the `Agent` or `Task` tool), always use the **fully-qualified namespace**: `compound-engineering:<category>:<agent-name>`. Never use the short agent name alone.
+
+Example:
+- `compound-engineering:research:learnings-researcher` (correct)
+- `learnings-researcher` (wrong - will fail to resolve at runtime)
+
+This prevents resolution failures when the plugin is installed alongside other plugins that may define agents with the same short name.
+
 ## Repository Docs Convention
 
 - **Plans** live in `docs/plans/` and track implementation progress.
