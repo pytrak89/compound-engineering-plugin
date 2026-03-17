@@ -6,7 +6,7 @@ AI-powered development tools that get smarter with every use. Make each unit of 
 
 | Component | Count |
 |-----------|-------|
-| Agents | 28 |
+| Agents | 29 |
 | Commands | 23 |
 | Skills | 20 |
 | MCP Servers | 1 |
@@ -35,13 +35,14 @@ Agents are organized into categories for easier discovery.
 | `schema-drift-detector` | Detect unrelated schema.rb changes in PRs |
 | `security-sentinel` | Security audits and vulnerability assessments |
 
-### Research (5)
+### Research (6)
 
 | Agent | Description |
 |-------|-------------|
 | `best-practices-researcher` | Gather external best practices and examples |
 | `framework-docs-researcher` | Research framework documentation and best practices |
 | `git-history-analyzer` | Analyze git history and code evolution |
+| `issue-intelligence-analyst` | Analyze GitHub issues to surface recurring themes and pain patterns |
 | `learnings-researcher` | Search institutional learnings for relevant past solutions |
 | `repo-research-analyst` | Research repository structure and conventions |
 
@@ -76,6 +77,7 @@ Core workflow commands use `ce:` prefix to unambiguously identify them as compou
 
 | Command | Description |
 |---------|-------------|
+| `/ce:ideate` | Discover high-impact project improvements through divergent ideation and adversarial filtering |
 | `/ce:brainstorm` | Explore requirements and approaches before planning |
 | `/ce:plan` | Create implementation plans |
 | `/ce:review` | Run comprehensive code reviews |
